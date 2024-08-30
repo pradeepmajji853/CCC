@@ -1,0 +1,19 @@
+.hero-container{
+    min-height: 95vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-container img{
+    width: 750px;
+}
+.hero-content{
+    padding-top:200px;
+    color: white;
+    font-size: 5.5rem;
+
+
+}
+.hero-content ul li{
+    list-style: none;
+}
