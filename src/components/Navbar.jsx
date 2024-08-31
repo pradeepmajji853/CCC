@@ -1,9 +1,9 @@
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
-export default function Navbar({navBackground}) {
+export default function Navbar() {
 
   return (
-    <div className="Navbar" style={{ backgroundColor: navBackground }} >
+    <div className="Navbar"  >
         <h1>CCC</h1>
       <ul>
         <li>
