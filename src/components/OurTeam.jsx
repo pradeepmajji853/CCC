@@ -64,7 +64,7 @@ function OurTeam() {
         }}
         className="show-more-button"
       >
-        Show More
+        View All
       </Button>
     </div>
   );
