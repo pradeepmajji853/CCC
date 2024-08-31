@@ -4,7 +4,7 @@ import "./Heropage.css"
 function Heropage() {
   return (
     <div className='hero-container'>
-        <img src="assets/ccclogo.png"  />
+        <img src="assets/ccclogo.png" className="logo" alt="CCC Logo" />
         <div className="hero-content">
             <ul>
                 <li>CBIT</li>
@@ -12,9 +12,9 @@ function Heropage() {
                 <li>CLUB</li>
             </ul>
         </div>
-      
     </div>
   )
 }
 
 export default Heropage
+

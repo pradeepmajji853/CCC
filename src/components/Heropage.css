@@ -1,19 +1,43 @@
-.hero-container{
+.hero-container {
+    position: relative;
+    background-image: url(assets/ccctheme/design1.png);
+    background-repeat: no-repeat;
+    background-position: 975px 150px;
     min-height: 95vh;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
+}
 
-}
-.hero-container img{
+.hero-container img.logo {
     width: 750px;
+    position: relative;
+    z-index: 2; /* Ensure the logo is above the additional images */
 }
-.hero-content{
-    padding-top:200px;
+
+.hero-content {
+    padding-top: 200px;
     color: white;
     font-size: 5.5rem;
-
-
+    z-index: 2; /* Ensure the content is above the additional images */
 }
-.hero-content ul li{
+
+.hero-content ul li {
     list-style: none;
 }
+
+/* Additional images */
+.image {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    z-index: 1; /* Ensure these images are behind the logo and content */
+}
+
+
+
+
+
+
