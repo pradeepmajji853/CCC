@@ -19,7 +19,6 @@ export default function Home() {
       </div>
       <Content />
       <HomeEvents/>
-      <OurTeam/>
       <FAQ/>
       <Footer />
     </>

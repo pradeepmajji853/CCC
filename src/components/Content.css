@@ -8,14 +8,28 @@
     gap: 3rem;
 }
 
+/* Separate styles for About Us and Our Mission sections */
 .About-Us, .Our-Mission {
     background-color: #1a1a1a;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    transform: translateX(-150px);
     opacity: 0;
-    animation: fadeInRight 1s ease forwards;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+/* Animation direction */
+.About-Us {
+    transform: translateX(-150px); /* Start from the left */
+}
+
+.Our-Mission {
+    transform: translateX(150px); /* Start from the right */
+}
+
+.About-Us.animate, .Our-Mission.animate {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .About-Us h1, .Our-Mission h1 {
@@ -48,13 +62,17 @@ p {
     font-family: 'Oswald', sans-serif;
 }
 
-@keyframes fadeInRight {
-    0% {
-        transform: translateX(-150px);
-        opacity: 0;
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .About-Us, .Our-Mission {
+        padding: 1.5rem;
     }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
+
+    .About-Us h1, .Our-Mission h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
     }
 }
