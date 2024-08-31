@@ -1,0 +1,22 @@
+.event-card {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    border-radius: 15px;
+    overflow: hidden; /* Ensures the image fits within the card */
+    cursor: pointer; /* Optional: indicates that the card is clickable */
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block;
+    border-radius: 15px; /* Matches the card's border radius */
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .event-card:hover .event-image {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    opacity: 0.9; /* Slight fade effect on hover */
+  }
+  

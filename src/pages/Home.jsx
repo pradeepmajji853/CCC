@@ -4,6 +4,8 @@ import Content from "../components/Content";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import OurTeam from "../components/OurTeam";
+import HomeEvents from "../components/HomeEvents";
+import FAQ from "../components/FAQ";
 import "./Home.css";
 
 export default function Home() {
@@ -16,7 +18,9 @@ export default function Home() {
         <Heropage className="heropage" />
       </div>
       <Content />
+      <HomeEvents/>
       <OurTeam/>
+      <FAQ/>
       <Footer />
     </>
   );

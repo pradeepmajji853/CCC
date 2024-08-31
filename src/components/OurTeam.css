@@ -14,8 +14,8 @@
   
   .Cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on large screens */
-    gap: 20px;
+    grid-template-columns: repeat(6, 1fr); /* 6 cards per row on large screens */
+    gap: 15px; /* Reduced gap for tighter alignment */
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
@@ -26,12 +26,13 @@
     color: white;
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    padding: 30px;
+    padding: 20px; /* Reduced padding to make the cards smaller */
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
   }
   
   .profile-card:hover {
+    scale: 1.025;
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
   }
@@ -75,13 +76,14 @@
   /* Responsive Design */
   @media (max-width: 1024px) {
     .Cards {
-      grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row on medium screens */
     }
   }
   
   @media (max-width: 600px) {
     .Cards {
-      grid-template-columns: 1fr; /* 1 card per row on small screens */
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row on small screens */
     }
   }
+  
   

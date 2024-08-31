@@ -1,12 +1,35 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
+import { FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div>
-        
-      
-    </div>
-  )
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-left">
+          <h3>CBIT Cyber Security Club</h3>
+          <p>Empowering the next generation of cyber defenders.</p>
+        </div>
+        <div className="footer-center">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><FaEnvelope /> cbitcybersecurity@example.com</li>
+          </ul>
+        </div>
+        <div className="footer-right">
+          <h4>Follow Us</h4>
+          <ul className="social-icons">
+            <li><a href="https://www.instagram.com/yourclubhandle" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
+            <li><a href="https://www.linkedin.com/in/yourclubhandle" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
+            {/* Add more social icons as needed */}
+          </ul>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; 2024 CBIT Cyber Security Club. All Rights Reserved.</p>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
