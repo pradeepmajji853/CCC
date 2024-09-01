@@ -15,6 +15,7 @@
     width: 100%;
     padding: 20px;
     margin-top: 20px;
+    gap: 20px; /* Add space between columns */
 }
 
 .contact-info {
@@ -75,4 +76,46 @@
 
 address {
     margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .map {
+        max-width: 100%;
+    }
+
+    .contact-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .social-media a {
+        font-size: 1rem;
+    }
+
+    .contacts h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .social-media a {
+        font-size: 0.9rem;
+    }
+
+    .contacts h2 {
+        font-size: 1rem;
+    }
 }
