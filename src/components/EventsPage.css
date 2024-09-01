@@ -24,7 +24,7 @@
 
 .events-page-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 cards per row on desktop screens */
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on large screens */
     gap: 30px; /* Adds space between the cards */
     justify-content: center; /* Center align the grid */
     margin: 0 auto; /* Center the grid container */
@@ -87,7 +87,7 @@
 
 @media (max-width: 600px) {
     .events-page-container {
-        grid-template-columns: 1fr; /* 1 card per row on small screens */
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on small screens */
         gap: 15px; /* Smaller gap for small screens */
     }
 }

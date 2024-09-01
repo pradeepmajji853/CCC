@@ -1,42 +1,31 @@
 .hero-container {
-    position: relative;
-    background-image: url(assets/ccctheme/design1.png);
-    background-repeat: no-repeat;
-    background-position: 975px 150px;
-    min-height: 95vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center; /* Ensure items are centered vertically */
-}
-
-.hero-container img.logo {
-    width: 750px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     position: relative;
-    z-index: 2; /* Ensure the logo is above the additional images */
 }
 
-.hero-content {
-    padding-top: 200px;
-    color: white;
-    font-size: 5.5rem;
-    z-index: 2; /* Ensure the content is above the additional images */
+.heropage {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-.hero-content ul li {
-    list-style: none;
+@media (max-width: 768px) {
+    .hero-container {
+        height: auto;
+    }
+
+    .heropage {
+        width: 100%;
+        height: auto;
+    }
 }
-
-/* Additional images */
-.image {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
-    z-index: 1; /* Ensure these images are behind the logo and content */
-}
-
-
 
 
 
