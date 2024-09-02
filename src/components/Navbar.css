@@ -27,7 +27,16 @@
     font-family: "Oswald", sans-serif;
     font-size: 2.5rem;
     font-weight: 450;
+    display: flex;
+    align-items: center;
 }
+
+.nav-icon {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
 
 .Navbar ul {
     font-family: "Roboto Slab", serif;
@@ -81,6 +90,9 @@
 }
 
 @media (max-width: 768px) {
+    .Navbar h1 {
+        font-size: 1.75rem;
+    }
     .menu-icon {
         display: block;
     }

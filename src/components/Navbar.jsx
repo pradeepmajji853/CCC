@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <div className="Navbar">
-      <h1>CCC</h1>
+      <h1>
+      {/* <img src="assets/ccclogo.png" alt="Icon" className="nav-icon" /> */}
+        CCC
+        </h1>
       <div className={`nav-menu ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li>
