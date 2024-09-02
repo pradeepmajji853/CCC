@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contactus.css';
 import Navbar from '../components/Navbar';
+import { FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Contactus() {
   return (
@@ -11,9 +12,8 @@ function Contactus() {
           <h1>Contact Us</h1>
           <p>Follow us on social media:</p>
           <ul className='social-media'>
-            <li><a href='https://twitter.com/yourclub' target='_blank' rel='noopener noreferrer'>Twitter</a></li>
-            <li><a href='https://instagram.com/yourclub' target='_blank' rel='noopener noreferrer'>Instagram</a></li>
-            <li><a href='https://linkedin.com/company/yourclub' target='_blank' rel='noopener noreferrer'>LinkedIn</a></li>
+            <li><a href='https://instagram.com/ccc_cbit' target='_blank' rel='noopener noreferrer'><FaInstagram /> Instagram</a></li>
+            <li><a href='https://www.linkedin.com/company/cbit-cybersecurity-club/mycompany/' target='_blank' rel='noopener noreferrer'><FaLinkedin /> LinkedIn</a></li>
           </ul>
           <p>Visit us at:</p>
           <address>

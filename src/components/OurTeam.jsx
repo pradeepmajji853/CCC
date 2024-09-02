@@ -10,6 +10,7 @@ function OurTeam() {
   const handleRedirect = () => {
     navigate('/teams');
   };
+ 
 
   return (
     <div className="OurTeam">

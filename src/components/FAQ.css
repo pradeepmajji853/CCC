@@ -52,7 +52,7 @@
   }
   
   .faq-answer.show {
-    max-height: 200px; /* Adjust according to your content length */
+    max-height: 200px; 
     opacity: 1;
   }
   
@@ -74,7 +74,7 @@
     }
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 600px) {
     .faq-question h3 {
       font-size: 1em;

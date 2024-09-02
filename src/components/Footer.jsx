@@ -13,15 +13,15 @@ function Footer() {
         <div className="footer-center">
           <h4>Contact Us</h4>
           <ul>
-            <li><FaEnvelope /> cbitcybersecurity@example.com</li>
+            <li><FaEnvelope /> ccc@cbit.ac.in</li>
           </ul>
         </div>
         <div className="footer-right">
           <h4>Follow Us</h4>
           <ul className="social-icons">
-            <li><a href="https://www.instagram.com/yourclubhandle" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
-            <li><a href="https://www.linkedin.com/in/yourclubhandle" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
-            {/* Add more social icons as needed */}
+            <li><a href="https://www.instagram.com/ccc_cbit" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
+            <li><a href="https://www.linkedin.com/company/cbit-cybersecurity-club/mycompany/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
+            
           </ul>
         </div>
       </div>

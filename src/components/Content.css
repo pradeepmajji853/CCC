@@ -8,7 +8,6 @@
     gap: 3rem;
 }
 
-/* Separate styles for About Us and Our Mission sections */
 .About-Us, .Our-Mission {
     background-color: #1a1a1a;
     padding: 2rem;
@@ -18,13 +17,13 @@
     transition: transform 1s ease, opacity 1s ease;
 }
 
-/* Animation direction */
+
 .About-Us {
-    transform: translateX(-150px); /* Start from the left */
+    transform: translateX(-150px); 
 }
 
 .Our-Mission {
-    transform: translateX(150px); /* Start from the right */
+    transform: translateX(150px); 
 }
 
 .About-Us.animate, .Our-Mission.animate {
@@ -62,7 +61,7 @@ p {
     font-family: 'Oswald', sans-serif;
 }
 
-/* Ensure responsiveness */
+
 @media (max-width: 768px) {
     .About-Us, .Our-Mission {
         padding: 1.5rem;

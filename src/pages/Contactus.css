@@ -15,7 +15,7 @@
     width: 100%;
     padding: 20px;
     margin-top: 20px;
-    gap: 20px; /* Add space between columns */
+    gap: 20px; 
 }
 
 .contact-info {
@@ -78,7 +78,7 @@ address {
     margin-top: 10px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;

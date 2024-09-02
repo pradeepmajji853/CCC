@@ -11,18 +11,22 @@ function FAQ() {
 
   const faqs = [
     {
-      question: "What is the CBIT Cyber Security Club?",
-      answer: "The CBIT Cyber Security Club is an organization dedicated to educating and empowering students in the field of cyber security."
+      question: "What is CBIT Cyber Security Club?",
+      answer: "The CCC-CBIT Cyber Security Club is a club of  dedicated and passionate Cyber Security enthusiasts .We educate and empower students in the field of cyber security."
     },
     {
-      question: "Who can join the club?",
-      answer: "Any student of CBIT with an interest in cyber security is welcome to join the club."
+      question: "How can we join the club?",
+      answer: "The recuritments for the executive board 2024-2025 are completed and recruitments for 2025-2026 will be notified within the website."
     },
     {
       question: "What activities does the club offer?",
-      answer: "We offer workshops, seminars, hackathons, and collaborative projects focused on various aspects of cyber security."
+      answer: "We offer CTF's, workshops, seminars, hackathons, and collaborative projects focused on various aspects of cyber security."
     },
-    // Add more FAQs as needed
+    {
+      question: "How can we register for CCC events?",
+      answer: "Check out our websites events page.Upcoming events of CCC will be notified."
+    }
+  
   ];
 
   return (

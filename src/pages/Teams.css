@@ -21,39 +21,39 @@ h1, h2 {
 
 .Cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on larger screens */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     justify-items: center;
 }
 
 @media screen and (max-width: 768px) {
     .Cards {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 15px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .Cards {
-        grid-template-columns: repeat(2, 1fr); /* Keep 2 cards per row on small screens */
-        gap: 10px; /* Reduced gap for small screens */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
     }
 
     .profile-card {
-        max-width: 250px; /* Reduced max width to fit more content in smaller screens */
-        padding: 15px; /* Further reduced padding */
+        max-width: 250px;
+        padding: 15px; 
     }
 
     .profile-image {
-        width: 120px; /* Further reduced size */
+        width: 120px; 
         height: 120px;
     }
 
     .profile-name {
-        font-size: 18px; /* Further reduced font size */
+        font-size: 18px; 
     }
 
     .profile-position {
-        font-size: 14px; /* Kept the font size */
+        font-size: 14px;
     }
 }

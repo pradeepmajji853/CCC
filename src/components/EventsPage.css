@@ -1,4 +1,4 @@
-/* Events Page Styles */
+
 .events-page {
     color: white;
     padding: 50px 20px;
@@ -8,62 +8,62 @@
 .events-page h1 {
     font-size: 2.5em;
     margin-bottom: 40px;
-    color: #f5f5f5; /* Light color for the heading */
+    color: #f5f5f5; 
     animation: slideDown 1s ease-in-out;
 }
 
 .events-section {
-    margin-bottom: 50px; /* Space between sections */
+    margin-bottom: 50px; 
 }
 
 .events-section h2 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #f5f5f5; /* Light color for section headings */
+    color: #f5f5f5; 
 }
 
 .events-page-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on large screens */
-    gap: 30px; /* Adds space between the cards */
-    justify-content: center; /* Center align the grid */
-    margin: 0 auto; /* Center the grid container */
-    max-width: 1200px; /* Maximum width for larger screens */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-content: center; 
+    margin: 0 auto; 
+    max-width: 1200px; 
 }
 
-/* Event Card Styles */
+
 .event-card {
     position: relative;
     width: 100%;
-    max-width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Set a fixed height for all cards */
+    max-width: 300px; 
+    height: 300px; 
     border-radius: 15px;
-    overflow: hidden; /* Ensures the image fits within the card */
-    cursor: pointer; /* Optional: indicates that the card is clickable */
-    background-color: #fff; /* Add a background color for better contrast */
-    color: #000; /* Text color for the card content */
+    overflow: hidden; 
+    cursor: pointer; 
+    background-color: #fff; 
+    color: #000; 
 }
 
 .event-image {
     width: 100%;
-    height: 100%; /* Ensures the image fills the card */
-    object-fit: cover; /* Ensures the image covers the entire card, cropping if necessary */
+    height: 100%; 
+    object-fit: cover; 
     display: block;
-    border-radius: 15px; /* Matches the card's border radius */
+    border-radius: 15px; 
     transition: transform 0.3s, opacity 0.3s;
 }
 
 .event-card:hover .event-image {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    opacity: 0.9; /* Slight fade effect on hover */
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
-/* Separator Line */
+
 .section-separator {
     width: 100%;
-    height: 2px; /* Thickness of the line */
-    background-color: #0b7dde; /* Color of the line */
-    margin: 30px 0; /* Space above and below the line */
+    height: 2px; 
+    background-color: #0b7dde; 
+    margin: 30px 0; 
 }
 
 @keyframes slideDown {
@@ -77,17 +77,16 @@
     }
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .events-page-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
-        gap: 20px; /* Slightly smaller gap for medium screens */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
     }
 }
 
 @media (max-width: 600px) {
     .events-page-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on small screens */
-        gap: 15px; /* Smaller gap for small screens */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
 }

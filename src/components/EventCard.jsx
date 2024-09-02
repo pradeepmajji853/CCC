@@ -6,7 +6,7 @@ function EventCard({ imageUrl, altText, link, overlayText }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    window.open(link, '_blank'); // Opens the link in a new tab
+    window.open(link, '_blank'); 
   };
 
   return (
